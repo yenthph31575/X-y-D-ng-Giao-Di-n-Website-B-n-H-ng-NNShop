@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "json-server": "^1.0.0-beta.0"
+  },
+  "name": "jsnc",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "scripts": {
+    "build":" tailwindcss -i ./css/input.css -o ./dist/output.css",
+    "watch":" tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
